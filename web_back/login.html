@@ -25,7 +25,8 @@
                 <i class="iconfont icon-key"></i>
                 <input type="text" class="input_txt" placeholder="邮箱/手机号">
                 <input type="password" class="input_pass" placeholder="密码">
-                <input type="submit" class="input_sub" value="登 录">
+                <!-- <input type="submit" class="input_sub" value="登 录"> -->
+                <input type="button" class="input_sub" value="登 录">
             </form>
         </div>
 
@@ -36,18 +37,18 @@
 
     <script>
         /*
-                                              结构的修改:
-                                                登录按钮时submit功能的，我们希望使用ajax，应当更改为普通按钮
-                                                  - 或者 e.preventDefault()
+                                                      结构的修改:
+                                                        登录按钮时submit功能的，我们希望使用ajax，应当更改为普通按钮
+                                                          - 或者 e.preventDefault()
 
-                                              功能简介：
-                                                1 点击登录按钮后，获取用户名和密码
-                                                2 检测内容是否为空
-                                                3 如果不为空，通过接口发送给服务端检测
-                                                4 根据检测结果进行对应处理
-                                                  - 成功：跳转到首页
-                                                  - 失败：提示即可
-                                            */
+                                                      功能简介：
+                                                        1 点击登录按钮后，获取用户名和密码
+                                                        2 检测内容是否为空
+                                                        3 如果不为空，通过接口发送给服务端检测
+                                                        4 根据检测结果进行对应处理
+                                                          - 成功：跳转到首页
+                                                          - 失败：提示即可
+                                                    */
 
         // 实现功能：
         // 1 给登录按钮设置点击事件
