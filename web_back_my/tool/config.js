@@ -5,4 +5,6 @@ var baseUrl = 'http://localhost:8000';
 
 var USER_LOGIN = baseUrl + '/admin/login';
 var USER_LOGOUT = baseUrl + '/admin/logout';
-var USER_INFO = baseUrl + '/admin/login';
+var USER_INFO = baseUrl + '/admin/getuser';
+var USER_ALLINFO = baseUrl + '/admin/userinfo_get';
+var USER_EDIT = baseUrl + '/admin/userinfo_edit';
